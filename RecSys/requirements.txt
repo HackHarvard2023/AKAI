@@ -1,0 +1,8 @@
+Flask==2.1.1
+Werkzeug==2.1.1
+gunicorn==21.2.0
+git+https://github.com/GuillermoTafoya/AmpliGraph.git#egg=ampligraph
+tensorflow-cpu==2.12.0
+numpy==1.23.1
+scikit-learn==1.1.2
+pandas==1.3.4
