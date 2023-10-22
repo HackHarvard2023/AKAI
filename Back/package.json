@@ -1,22 +1,14 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "API server for DB connectivity and bluffychat functionality",
+  "description": "API server for DB connectivity",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SoftBluff/chat-juridico.git"
-  },
-  "author": "SoftBluff",
+  "author": "GuillermoTafoya",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/SoftBluff/chat-juridico/issues"
-  },
-  "homepage": "https://github.com/SoftBluff/chat-juridico#readme",
   "dependencies": {
     "@pinecone-database/pinecone": "^0.0.14",
     "axios": "^1.3.4",
