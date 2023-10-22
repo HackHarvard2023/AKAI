@@ -1,8 +1,8 @@
-runtime: python38  # Make sure to use a supported runtime version
+runtime: python38
 service: model
 instance_class: F4_1G
 
-entrypoint: gunicorn -b :$PORT main:app  # Adjust this line based on your Flask app's structure
+entrypoint: gunicorn -b :$PORT main:app
 
 automatic_scaling:
   target_cpu_utilization: 0.65
@@ -15,4 +15,4 @@ network:
 handlers:
 - url: /.*
   script: auto
-  secure: always  # This line ensures that the app is always served over HTTPS
+  secure: always
